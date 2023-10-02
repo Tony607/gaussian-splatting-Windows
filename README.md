@@ -1,4 +1,5 @@
 # 中文教程
+[视频演示](https://www.bilibili.com/video/BV1Kj411b7cn/)
 ## 准备
 0. `git clone https://github.com/Tony607/gaussian-splatting-Windows --recursive`
 1. 安装**cuda 11.8** -- [下载直达地址](https://developer.download.nvidia.com/compute/cuda/11.8.0/local_installers/cuda_11.8.0_522.06_windows.exe)
