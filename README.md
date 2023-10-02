@@ -9,7 +9,7 @@
 3. 下载安装**imagemagick** -- [下载直达地址](https://imagemagick.org/archive/binaries/ImageMagick-7.1.1-19-Q16-HDRI-x64-dll.exe)（安装引导过程默认会选择安装`FFmpeg`）
 4. 下载可视化**viewers**程序 -- [下载直达地址](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/binaries/viewers.zip)，解压到`.\tools\viewers`中。
 5. 安装Python依赖包：命令行运行: `install_packages.bat`
-## 视频抽帧
+## 生成可视化模型
 1. 将拍的视频放到: `data/videos/movie.mov`，（`data/videos`子文件夹结构手动创建一下）
 2. 运行**抽帧**程序: `python extract_images.py data/videos/movie.mov data/input`，默认抽取100帧。 
 3. 运行**点云**计算 (调用COLMAP) : `python convert.py -s data`
